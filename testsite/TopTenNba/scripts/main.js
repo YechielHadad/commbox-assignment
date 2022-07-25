@@ -5,7 +5,7 @@ const url = "../Handlers/NbaAjaxHandler.ashx/";
 $(function () {
     $('#datepicker').datepicker({
         changeYear: true,
-        showButtonPanel: true,
+        showButtonPanel: true, 
         dateFormat: 'yy',
         onClose: function () {
             var year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
